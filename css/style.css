@@ -71,7 +71,6 @@ body {
   margin: 0 auto;
   padding-bottom: 6.1rem;
   padding-top: 9.15rem;
-  overflow: hidden;
 }
 .main-screen__container {
   position: relative;
@@ -198,16 +197,16 @@ body {
   position: absolute;
   left: 0;
   top: 3rem;
-  width: 124px;
-  height: 32px;
+  width: 6.2rem;
+  height: 1.5rem;
   transition: all 1s linear;
 }
 .right-table__chart2 {
   position: absolute;
   left: 0;
   top: 3rem;
-  width: 124px;
-  height: 32px;
+  width: 6.2rem;
+  height: 1.5rem;
   transition: all 1s linear;
 }
 .right-table__cercles {
@@ -279,7 +278,7 @@ body {
           backdrop-filter: blur(15px);
   background-color: rgba(216, 4, 250, 0.04);
   box-shadow: inset 0px 1px 2px rgba(239, 232, 232, 0.6);
-  z-index: 20;
+  z-index: 40;
 }
 
 .passive-income__holder {
@@ -396,7 +395,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 .how-it-works__title {
   position: relative;
@@ -423,7 +422,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   height: 13.95rem;
@@ -455,6 +453,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -468,6 +467,7 @@ body {
   height: 2rem;
 }
 .card__title {
+  margin-bottom: 20px;
   font: 600 0.8rem/1.12 "Montserrat";
   color: #fff;
 }
@@ -617,7 +617,7 @@ body {
 
 .telegram-traid__container {
   position: relative;
-  margin-bottom: 6rem;
+  padding-bottom: 6rem;
 }
 .telegram-traid__title {
   text-align: center;
@@ -687,13 +687,19 @@ body {
   width: 3rem;
   height: 3rem;
 }
+.telegram-traid__form {
+  margin-left: auto;
+  display: flex;
+  gap: 2vw;
+}
 .telegram-traid__input {
-  margin-right: 2rem;
-  width: 12rem;
+  width: 17vw;
   height: 2rem;
   border: none;
   border-bottom: 1px solid #fff;
   background: none;
+  color: #fff;
+  outline: none;
 }
 .telegram-traid__input::-moz-placeholder {
   color: #fff;
@@ -705,12 +711,15 @@ body {
   color: #fff;
 }
 .telegram-traid__submit {
+  margin-left: auto;
   padding: 1rem 3rem;
+  width: 25vw;
   border-radius: 1rem;
   border: none;
   background-color: #2C90F7;
   color: #fff;
   font: 400 0.8rem/1.1rem "Montserrat";
+  transition: all 0.3s ease;
 }
 .telegram-traid__submit:hover {
   cursor: pointer;
@@ -744,67 +753,67 @@ body {
 }
 
 .anim__pig {
-  width: 10rem;
-  height: 10rem;
+  width: 80%;
+  height: 80%;
   position: absolute;
-  left: 2rem;
-  top: 2rem;
+  left: 10%;
+  top: 10%;
 }
 .anim__money {
-  width: 6.7rem;
-  height: 3.85rem;
+  width: 50%;
+  height: 25%;
   position: absolute;
   left: 0;
-  top: 1rem;
+  top: 5%;
 }
 .anim__cash {
-  width: 3rem;
-  height: 3rem;
+  width: 25%;
+  height: 25%;
   position: absolute;
   left: 0;
-  top: 1rem;
+  top: 5%;
 }
 .anim__cash2 {
-  width: 3rem;
-  height: 3rem;
+  width: 25%;
+  height: 25%;
   position: absolute;
-  left: 3rem;
-  top: 0.5rem;
+  left: 30%;
+  top: 2.5%;
 }
 .anim__computor {
-  width: 10rem;
-  height: 7rem;
+  width: 70%;
+  height: 50%;
   position: absolute;
-  left: 2.8rem;
-  top: 5rem;
+  left: 20%;
+  top: 30%;
 }
 .anim__chart1 {
-  width: 8.15rem;
-  height: 2.5rem;
+  width: 60%;
+  height: 10%;
   position: absolute;
-  left: 3.5rem;
-  top: 6rem;
+  left: 24%;
+  top: 48%;
 }
 .anim__chart2 {
-  width: 8.15rem;
-  height: 2.5rem;
+  width: 60%;
+  height: 10%;
   position: absolute;
-  left: 3.5rem;
-  top: 7rem;
+  left: 24%;
+  top: 50%;
 }
 .anim__chart3 {
-  width: 8.15rem;
-  height: 2.5rem;
+  width: 60%;
+  height: 10%;
   position: absolute;
-  left: 3.5rem;
-  top: 8rem;
+  left: 24%;
+  top: 52%;
 }
 .anim__tangle {
-  width: 4.25rem;
-  height: 4.25rem;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
-  left: 1rem;
-  top: 3.6rem;
+  left: 10%;
+  top: 30%;
   border-radius: 50%;
   -webkit-backdrop-filter: blur(0.2rem);
           backdrop-filter: blur(0.2rem);
@@ -814,7 +823,7 @@ body {
   width: 1rem;
   height: 1rem;
   position: absolute;
-  left: 10rem;
+  left: 60%;
   top: 3.6rem;
   border-radius: 50%;
   background-color: red;
@@ -823,8 +832,8 @@ body {
   width: 1rem;
   height: 1rem;
   position: absolute;
-  left: 10rem;
-  top: 13rem;
+  left: 70%;
+  top: 70%;
   border-radius: 50%;
   background-color: blue;
 }
@@ -951,22 +960,7 @@ body {
           animation-direction: alternate;
 }
 
-.bg_circle {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  -webkit-animation-name: circle;
-          animation-name: circle;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  z-index: 1;
-}
-
-.circle1 {
+.back__circle1 {
   position: absolute;
   background-color: red;
   top: 40%;
@@ -974,8 +968,7 @@ body {
   -webkit-animation-duration: 8s;
           animation-duration: 8s;
 }
-
-.circle2 {
+.back__circle2 {
   position: absolute;
   background-color: blue;
   top: 60%;
@@ -983,8 +976,7 @@ body {
   -webkit-animation-duration: 6s;
           animation-duration: 6s;
 }
-
-.circle3 {
+.back__circle3 {
   position: absolute;
   background-color: #09132F;
   top: 20%;
@@ -992,8 +984,7 @@ body {
   -webkit-animation-duration: 7s;
           animation-duration: 7s;
 }
-
-.circle4 {
+.back__circle4 {
   position: absolute;
   background-color: red;
   top: 30%;
@@ -1001,8 +992,7 @@ body {
   -webkit-animation-duration: 9s;
           animation-duration: 9s;
 }
-
-.circle5 {
+.back__circle5 {
   position: absolute;
   background-color: violet;
   top: 5%;
@@ -1010,8 +1000,7 @@ body {
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
 }
-
-.circle6 {
+.back__circle6 {
   position: absolute;
   background-color: #2C90F7;
   top: 93%;
@@ -1159,30 +1148,433 @@ body {
     transform: translateY(0);
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1600px) {
+  .header__menu a {
+    font: 500 13px/15px "Montserrat";
+  }
+  .footer__menu a {
+    font: 500 13px/15px "Montserrat";
+  }
+}
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .header__menu a {
+    font: 500 13px/15px "Montserrat";
+  }
+  .footer__menu a {
+    font: 500 13px/15px "Montserrat";
+  }
+}
+@media (min-width: 1300px) and (max-width: 1500px) {
+  html {
+    font-size: 18px;
+  }
+  .header__menu a {
+    font: 500 13px/15px "Montserrat";
+  }
+  .container {
+    max-width: 85%;
+    padding: 1rem;
+  }
+}
+@media (min-width: 981px) and (max-width: 1300px) {
+  html {
+    font-size: 16px;
+  }
   .main-screen__container {
     grid-template-columns: 22rem 36rem;
   }
   .container {
-    max-width: 85%;
+    max-width: 90%;
+    padding: 1rem;
+  }
+  .wrap {
     padding: 1rem;
   }
   .holder {
     width: 50.65rem;
     padding: 1rem;
   }
-}
-@media (min-width: 767px) and (max-width: 1300px) {
-  html {
-    font-size: 16px;
+  .header__menu a {
+    font: 400 12px/15px "Montserrat";
   }
   .main-screen__container {
+    grid-template-columns: 22rem 36rem;
+  }
+  .main-screen__title {
+    font: 700 40px/48px "Montserrat";
+  }
+  .main-screen__txt {
+    font: 400 15px/25px "Montserrat";
+  }
+  .main-screen__animation {
+    transform: perspective(16cm) scale(0.9);
+  }
+  .main-screen__button {
+    font: 400 14px/1.2 "Montserrat";
+  }
+  .passive-income__title {
+    font: 700 32px/53px "Montserrat";
+  }
+  .passive-income__txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .passive-income__card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .passive-income__card-title {
+    font: 600 22px/28px "Montserrat";
+  }
+  .passive-income__card-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .passive-income__card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .passive-income__img {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+  }
+  .card__title {
+    font: 700 15px/21px "Montserrat";
+  }
+  .card__txt {
+    font: 400 13px/18px "Montserrat";
+  }
+  .anim__telephone {
+    position: absolute;
+    top: 24%;
+    left: 25%;
+    width: 10%;
+    height: 20%;
+    -webkit-animation-name: levitation;
+            animation-name: levitation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .anim__coin-1 {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 10%;
+    height: 10%;
+    -webkit-animation-name: levitation;
+            animation-name: levitation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .anim__coin-2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 10%;
+    height: 10%;
+    -webkit-animation-name: levitation;
+            animation-name: levitation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .how-it-works__title::after {
+    content: "";
+    position: absolute;
+    top: 3rem;
+    left: 35%;
+    width: 10.4rem;
+    height: 0.2rem;
+    background-color: #2C90F7;
+  }
+  .how-it-works__card {
+    height: 17.5rem;
+  }
+  .instruction__title::after {
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 35%;
+    width: 10.4rem;
+    height: 0.2rem;
+    background-color: #2C90F7;
+  }
+  .telegram-traid__title {
+    font: 700 32px/53px "Montserrat";
+  }
+  .telegram-traid__txt {
+    font: 400 15px/25px "Montserrat";
+  }
+  .telegram-traid__cards {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .telegram-traid__img {
+    width: 100%;
+    height: 100%;
+  }
+  .telegram-traid__card-title {
+    font: 600 20px/26px "Montserrat";
+  }
+  .telegram-traid__card-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .footer a {
+    font: 400 11px/16px "Montserrat";
+  }
+  .public-trading__title {
+    font: 700 32px/53px "Montserrat";
+  }
+  .public-trading__txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .public-trading__card1-title {
+    font: 600 22px/28px "Montserrat";
+  }
+  .public-trading__card2-title {
+    font: 600 22px/28px "Montserrat";
+  }
+  .public-trading__card1-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .public-trading__card2-txt {
+    font: 400 16px/27px "Montserrat";
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 981px) {
   html {
     font-size: 14px;
+  }
+  .wrap {
+    padding: 1rem;
+  }
+  .container {
+    max-width: none;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__headen-menu {
+    display: block;
+  }
+  .header__menu {
+    display: none;
+  }
+  .main-screen__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .main-screen__title {
+    font: 700 27px/33px "Montserrat";
+  }
+  .main-screen__animation {
+    transform: perspective(16cm) scale(0.9);
+  }
+  .main-screen__button {
+    font: 400 14px/1.2 "Montserrat";
+  }
+  .passive-income__title {
+    font: 700 32px/53px "Montserrat";
+  }
+  .passive-income__txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .passive-income__card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .passive-income__card-title {
+    font: 600 22px/28px "Montserrat";
+  }
+  .passive-income__card-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .passive-income__card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .passive-income__img {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+  }
+  .card__title {
+    font: 700 15px/21px "Montserrat";
+  }
+  .card__txt {
+    font: 400 13px/18px "Montserrat";
+  }
+  .anim__telephone {
+    position: absolute;
+    top: 24%;
+    left: 25%;
+    width: 10%;
+    height: 20%;
+    -webkit-animation-name: levitation;
+            animation-name: levitation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .anim__coin-1 {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 10%;
+    height: 10%;
+    -webkit-animation-name: levitation;
+            animation-name: levitation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .anim__coin-2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 10%;
+    height: 10%;
+    -webkit-animation-name: levitation;
+            animation-name: levitation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .how-it-works__title::after {
+    content: "";
+    position: absolute;
+    top: 3rem;
+    left: 35%;
+    width: 10.4rem;
+    height: 0.2rem;
+    background-color: #2C90F7;
+  }
+  .how-it-works__card {
+    height: 17.5rem;
+  }
+  .instruction__title::after {
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 35%;
+    width: 10.4rem;
+    height: 0.2rem;
+    background-color: #2C90F7;
+  }
+  .telegram-traid__title {
+    font: 700 32px/53px "Montserrat";
+  }
+  .telegram-traid__txt {
+    font: 400 15px/25px "Montserrat";
+  }
+  .telegram-traid__holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .telegram-traid__cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .telegram-traid__img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .telegram-traid__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .telegram-traid__input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #fff;
+  }
+  .telegram-traid__submit {
+    padding: 1rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .telegram-traid__card-title {
+    font: 600 20px/26px "Montserrat";
+  }
+  .telegram-traid__card-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .footer a {
+    font: 400 11px/16px "Montserrat";
+  }
+  .public-trading__title {
+    font: 700 32px/53px "Montserrat";
+  }
+  .public-trading__txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .public-trading__card1-title {
+    font: 600 22px/28px "Montserrat";
+  }
+  .public-trading__card2-title {
+    font: 600 22px/28px "Montserrat";
+  }
+  .public-trading__card1-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+  .public-trading__card2-txt {
+    font: 400 16px/27px "Montserrat";
+  }
+}
+@media (min-width: 420px) and (max-width: 767px) {
+  html {
+    font-size: 14px;
+    text-align: center;
   }
   .container {
     max-width: none;
@@ -1196,7 +1588,7 @@ body {
   }
   .header__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .header__headen-menu {
     display: block;
@@ -1217,7 +1609,8 @@ body {
   }
   .main-screen__button {
     padding: 1rem 3rem;
-    font: 700 2rem/1.2rem "Montserrat";
+    font: 500 15px/25px "Montserrat";
+    border-radius: 20px;
   }
   .main-screen__animation {
     transform: perspective(16cm) scale(0.7);
@@ -1225,6 +1618,7 @@ body {
   .passive-income__card1 {
     display: flex;
     flex-direction: column;
+    gap: 1.35rem;
   }
   .passive-income__card-content {
     text-align: center;
@@ -1232,6 +1626,7 @@ body {
   .passive-income__card2 {
     display: flex;
     flex-direction: column-reverse;
+    gap: 1.35rem;
   }
   .passive-income__card-content:hover .card-title1::after {
     width: 100%;
@@ -1240,6 +1635,15 @@ body {
   .passive-income__card-content:hover .card-title2::after {
     width: 100%;
     left: 0;
+  }
+  .passive-income__txt {
+    font: 400 1rem/1.3 "Montserrat";
+    margin-bottom: 4.15rem;
+    text-align: center;
+    color: #fff;
+  }
+  .passive-income__card-txt {
+    font: 400 1rem/1.3 "Montserrat";
   }
   .card-title1::after {
     content: "";
@@ -1264,6 +1668,12 @@ body {
   .how-it-works__cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .how-it-works__card {
+    height: 16.4rem;
+    padding: 2rem;
+    width: 23rem;
   }
   .how-it-works__title::after {
     content: "";
@@ -1332,15 +1742,30 @@ body {
   .telegram-traid__cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 0.5rem;
+    gap: 20px;
   }
   .telegram-traid__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
-  .telegram-traid__form input {
-    margin-bottom: 1rem;
+  .telegram-traid__input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #fff;
+  }
+  .telegram-traid__submit {
+    padding: 1rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .telegram-traid__card-title {
+    font: 700 14px/1.2 "Montserrat";
+  }
+  .telegram-traid__card-txt {
+    font: 400 12px/1.2 "Montserrat";
   }
   .wrap {
     padding: 0.5rem;
@@ -1353,11 +1778,13 @@ body {
   }
   .footer__logo {
     max-width: 30%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 12px;
   }
   .footer__menu {
     display: flex;
     flex-direction: column;
+    align-items: none;
+    gap: 12px;
   }
   .footer__copy {
     display: flex;
@@ -1367,5 +1794,347 @@ body {
   }
   .footer__copy p {
     margin-bottom: 0.3rem;
+    font: 400 1em/1.4 "Montserrat";
+  }
+  .footer__headen {
+    display: none;
+  }
+  .back__circle1 {
+    position: absolute;
+    background-color: red;
+    top: 40%;
+    left: 40%;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+  }
+  .back__circle2 {
+    position: absolute;
+    background-color: blue;
+    top: 60%;
+    left: 20%;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+  }
+  .back__circle3 {
+    position: absolute;
+    background-color: #09132F;
+    top: 20%;
+    left: 60%;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+  }
+  .back__circle4 {
+    position: absolute;
+    background-color: red;
+    top: 30%;
+    left: 60%;
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+  }
+  .back__circle5 {
+    position: absolute;
+    background-color: violet;
+    top: 5%;
+    left: 8%;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+  }
+  .back__circle6 {
+    position: absolute;
+    background-color: #2C90F7;
+    top: 93%;
+    left: 60%;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+  }
+  .card__title {
+    font: 700 15px/1.2 "Montserrat";
+  }
+  .card__txt {
+    font: 400 13px/1.2 "Montserrat";
+  }
+}
+@media (max-width: 420px) {
+  html {
+    font-size: 14px;
+    text-align: center;
+  }
+  .container {
+    max-width: none;
+    padding: 0.5rem;
+    margin: 0 auto;
+  }
+  .holder {
+    width: 95%;
+    padding: 0.5rem;
+    margin: 0 auto;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__headen-menu {
+    display: block;
+  }
+  .header__menu {
+    display: none;
+  }
+  .main-screen__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-screen__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .main-screen__button {
+    padding: 1rem 3rem;
+    font: 500 15px/25px "Montserrat";
+    border-radius: 20px;
+  }
+  .main-screen__animation {
+    transform: perspective(16cm) scale(0.7);
+  }
+  .passive-income__card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.35rem;
+  }
+  .passive-income__card-content {
+    text-align: center;
+  }
+  .passive-income__card2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.35rem;
+  }
+  .passive-income__card-content:hover .card-title1::after {
+    width: 100%;
+    left: 0;
+  }
+  .passive-income__card-content:hover .card-title2::after {
+    width: 100%;
+    left: 0;
+  }
+  .passive-income__txt {
+    font: 400 1rem/1.3 "Montserrat";
+    margin-bottom: 4.15rem;
+    text-align: center;
+    color: #fff;
+  }
+  .passive-income__card-txt {
+    font: 400 1rem/1.3 "Montserrat";
+  }
+  .card-title1::after {
+    content: "";
+    width: 10.4rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 30%;
+    top: 120%;
+    background-color: #2C90F7;
+    transition: all 1s ease;
+  }
+  .card-title2::after {
+    content: "";
+    width: 10.4rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 30%;
+    top: 115%;
+    background-color: #2C90F7;
+    transition: all 1s ease;
+  }
+  .how-it-works__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .how-it-works__card {
+    height: 16.4rem;
+    padding: 2rem;
+    width: 23rem;
+  }
+  .how-it-works__title::after {
+    content: "";
+    position: absolute;
+    top: 3rem;
+    left: 30%;
+    width: 10.4rem;
+    height: 0.2rem;
+    background-color: #2C90F7;
+  }
+  .card_swap::after {
+    content: "↓";
+    position: absolute;
+    top: 103%;
+    left: 50%;
+    color: #2C90F7;
+  }
+  .instruction__title::after {
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 30%;
+    width: 10.4rem;
+    height: 0.2rem;
+    background-color: #2C90F7;
+  }
+  .public-trading__card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.35rem;
+  }
+  .public-trading__card2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.35rem;
+  }
+  .public-trading__card1-content:hover .card1-title::after {
+    width: 100%;
+    left: 0;
+  }
+  .public-trading__card2-content:hover .card2-title::after {
+    width: 100%;
+    left: 0;
+  }
+  .card1-title::after {
+    content: "";
+    width: 10.4rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 30%;
+    top: 120%;
+    background-color: #2C90F7;
+    transition: all 1s ease;
+  }
+  .card2-title::after {
+    content: "";
+    width: 10.4rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 30%;
+    top: 120%;
+    background-color: #2C90F7;
+    transition: all 1s ease;
+  }
+  .telegram-traid__holder {
+    flex-direction: column;
+  }
+  .telegram-traid__cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .telegram-traid__form {
+    display: flex;
+    flex-direction: column;
+  }
+  .telegram-traid__form input {
+    margin-bottom: 1rem;
+  }
+  .telegram-traid__input {
+    margin: 0 auto;
+    width: 70%;
+    color: #fff;
+  }
+  .telegram-traid__submit {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .telegram-traid__card-title {
+    font: 700 14px/1.2 "Montserrat";
+  }
+  .telegram-traid__card-txt {
+    font: 400 12px/1.2 "Montserrat";
+  }
+  .wrap {
+    padding: 0.5rem;
+  }
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer__logo {
+    max-width: 30%;
+    margin-bottom: 12px;
+  }
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: none;
+    gap: 12px;
+  }
+  .footer__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__copy p {
+    margin-bottom: 0.3rem;
+    font: 400 1em/1.4 "Montserrat";
+  }
+  .footer__headen {
+    display: none;
+  }
+  .back__circle1 {
+    position: absolute;
+    background-color: red;
+    top: 40%;
+    left: 40%;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+  }
+  .back__circle2 {
+    position: absolute;
+    background-color: blue;
+    top: 60%;
+    left: 20%;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+  }
+  .back__circle3 {
+    position: absolute;
+    background-color: #09132F;
+    top: 20%;
+    left: 60%;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+  }
+  .back__circle4 {
+    position: absolute;
+    background-color: red;
+    top: 30%;
+    left: 60%;
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+  }
+  .back__circle5 {
+    position: absolute;
+    background-color: violet;
+    top: 5%;
+    left: 8%;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+  }
+  .back__circle6 {
+    position: absolute;
+    background-color: #2C90F7;
+    top: 93%;
+    left: 60%;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+  }
+  .card__title {
+    font: 700 15px/1.2 "Montserrat";
+  }
+  .card__txt {
+    font: 400 13px/1.2 "Montserrat";
   }
 }/*# sourceMappingURL=style.css.map */
